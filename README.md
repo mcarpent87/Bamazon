@@ -21,75 +21,28 @@ An Amazon-like CLI Storefront App utilizing MySQL/Node.js
       * If the purchase goes through, it updates the stock quantity to reflect the purchase
       * It will also update the product sales in the department table
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
-```
+2. BamazonManager.js
+   *Starts with a menu:
+      *View Products for Sale
+      *View Low Inventory
+      *Add to Inventory
+      *Add New Product
+      *End Session
+      
+*If the manager selects View Products for Sale, it lists all of the products in the store including all of their details.
 
-And repeat
+*If the manager selects View Low Inventory, it will list all the products with less than five items in its StockQuantity column.
 
-```
-until finished
-```
+*If the manager selects Add to Inventory, it allows the manager to select a product and add inventory.
 
-End with an example of getting some data out of the system or using it for a little demo
+*If the manager selects Add New Product, it allows the manager to add a new product to the store.
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+*If the manager selects End Session, it ends the session and doesn't go back to the menu.
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+### Technologies Used:
+*Node.js
+*mySQL
+*Javascript
+*Node npm packages (inquirer, mysql)
