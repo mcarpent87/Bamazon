@@ -5,6 +5,10 @@ An Amazon-like CLI Storefront App utilizing MySQL/Node.js
 ## Getting Started
 
 * Clone Repo
+* Run command in Terminal or Gitbash 'npm install'
+* Run command depending which mode you would like to be on:
+    * Customer - 'npm run customer'
+    * Manager - 'npm run manager'
 
 ### Prerequisites
 
