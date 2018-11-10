@@ -41,7 +41,8 @@ An Amazon-like CLI Storefront App utilizing MySQL/Node.js
 *If the manager selects End Session, it ends the session and doesn't go back to the menu.
 ```
 
-### Technologies Used:
+## Technologies Used:
+
 *Node.js
 *mySQL
 *Javascript
