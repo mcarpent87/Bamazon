@@ -48,3 +48,8 @@ An Amazon-like CLI Storefront App utilizing MySQL/Node.js
 * Javascript
 * Node npm packages (inquirer, mySQL)
 
+# Customer DEMO
+bamazonCustomer-demo-mkc.gif
+
+# Manager DEMO
+bamazonManager-demo-mkc.gif
